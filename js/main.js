@@ -28,8 +28,6 @@ var paragraph = when_to_launch.children;
 
 var collect = headingsElements[12].innerHTML + "\n-------------------\n";
 
-console.log(collect);
-
 for (var j = 1; j < paragraph.length; j += 1) {
     collect += paragraph[j].innerHTML + "\n" + "\n";    
 }
