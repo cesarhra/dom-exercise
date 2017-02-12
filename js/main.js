@@ -7,7 +7,7 @@ var headerName = header.innerHTML;
 
 var contElements = document.querySelector(".bg-main-content");
 
-var headingsElements = contElements.getElementsByTagName ("h2");
+var headingsElements = contElements.getElementsByTagName("h2");
 
 var collect = headerName + "\n----------------------------------------\n";
 
